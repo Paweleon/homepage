@@ -1,12 +1,64 @@
 body {
-    background: #da0824;
+    background: hsl(255, 11%, 93%);
+    
+
 }
-.mainheader
-{color:rgb(92, 61, 175);
-font-size: 2cm}
+
+.mainheader {
+    color: rgb(92, 61, 175);
+    font-size: 2cm;
+    margin: 32px auto;
+    margin-left: 32px;
+}
 
 
 .sectionheader {
     color: rgb(172, 7, 7);
     background-color: aqua;
+
 }
+
+.link {
+    color: rgb(141, 240, 11);
+
+   
+
+}
+
+.abaut {
+    width: 100%;
+    height: 200px;
+    overflow: scroll;
+}
+
+.paragraph {
+    padding-left: 16px;
+    border-bottom: 3px dotted blueviolet;
+    color: hsl(200, 50%, 98%);
+    border-radius: 30px;
+    margin: 32px auto;
+    background-image: url("haker.jpg");
+    text-align:JUSTIFY, center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    padding: 10px;
+    border: 10px solid rebeccapurple;
+    margin: 100px;
+    position: absolute;
+    left: 50px;
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.haker {
+    width: 100%;
+    max-width: 10px;
+    height: 20px;
+    display:block
+    float: left}
