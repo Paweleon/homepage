@@ -1,64 +1,97 @@
 body {
-    background: hsl(255, 11%, 93%);
+    background-image: url("haker3.png");
     
-
 }
 
 .mainheader {
-    color: rgb(92, 61, 175);
+    color: white;
     font-size: 2cm;
     margin: 32px auto;
     margin-left: 32px;
+    text-align: center;
+
+
 }
 
+.firstlink {
+    color: rgb(238, 9, 9);
+    font-size: 0.75cm;
+
+}
 
 .sectionheader {
-    color: rgb(172, 7, 7);
-    background-color: aqua;
-
+    color: white;
+    font-size: 1.5cm;
+    font-family: fantasy;
+    text-align: center;
 }
 
-.link {
-    color: rgb(141, 240, 11);
-
-   
-
+.down {
+    color: white;
+    position: fixed;
+    top: 10px;
+    right: 10px;
 }
-
-.abaut {
-    width: 100%;
-    height: 200px;
-    overflow: scroll;
-}
-
-.paragraph {
-    padding-left: 16px;
-    border-bottom: 3px dotted blueviolet;
-    color: hsl(200, 50%, 98%);
-    border-radius: 30px;
-    margin: 32px auto;
-    background-image: url("haker.jpg");
-    text-align:JUSTIFY, center;
-}
-
-.box {
-    width: 100px;
-    height: 100px;
-    background: yellowgreen;
-    padding: 10px;
-    border: 10px solid rebeccapurple;
-    margin: 100px;
-    position: absolute;
-    left: 50px;
 
 .top {
+    color: white;
     position: fixed;
     bottom: 10px;
     right: 10px;
 }
+
+.link {
+    color: white;
+}
+
+.abaut {
+    width: 100%;
+    height: 700px;
+    padding: 10px 100px 10px 100px;
+
+    
+
+}
+
+.paragraph {
+    background-color: white;
+    color: white;
+    font-size: 1cm;
+    padding-left: 16px;
+    border-bottom: 3px dotted blueviolet;
+    border-radius: 100px;
+    margin: 32px auto;
+    text-align:justify;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+
+}
+
+.box {
+    overflow: hidden;;
+    width: 200px;
+    height: 200px;
+    background-image: url("piesel.png");
+    padding: 3px;
+    border: 5px solid rgb(8, 6, 6);
+    margin: 10px;
+    position:absolute;
+    left: 10px;
+    color: black;
+    text-align: center;
+    font-size: 1cm;
+    float: left;
+    margin:10px;
+
+}
+
 .haker {
     width: 100%;
     max-width: 10px;
     height: 20px;
-    display:block
-    float: left}
+    display: block;
+    float: left;
+}
+
+.footer {
+    color=white
+}
