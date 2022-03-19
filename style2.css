@@ -1,23 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+*, *:after, *::before {
+    box-sizing: inherit;
+}
+
 body {
-    background-image: url("haker3.png");
-    
+     background-image: url("haker3.png");
+}
+   
+ 
+}
+.main {
+    width: 100%;
+    margin:32px auto,
 }
 
 .mainheader {
     color: white;
     font-size: 2cm;
-    margin: 32px auto;
-    margin-left: 32px;
+    margin: 50px 30px 50px 30px;
     text-align: center;
 
 
 }
 
-.firstlink {
+
     color: rgb(238, 9, 9);
     font-size: 0.75cm;
 
-}
+
 
 .sectionheader {
     color: white;
@@ -41,57 +53,84 @@ body {
 }
 
 .link {
-    color: white;
+    color: white; 
 }
 
-.abaut {
-    width: 100%;
-    height: 700px;
-    padding: 10px 100px 10px 100px;
-
+.section {
     
+    height: 100%;
+    padding: 50px;
+    margin: 150px;
 
 }
 
 .paragraph {
-    background-color: white;
+    
     color: white;
     font-size: 1cm;
-    padding-left: 16px;
+    font-family: 'Times New Roman', Times, serif;
     border-bottom: 3px dotted blueviolet;
     border-radius: 100px;
-    margin: 32px auto;
     text-align:justify;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    
 
 }
 
 .box {
-    overflow: hidden;;
+    
     width: 200px;
     height: 200px;
     background-image: url("piesel.png");
     padding: 3px;
-    border: 5px solid rgb(8, 6, 6);
     margin: 10px;
-    position:absolute;
+    position:relative;
     left: 10px;
     color: black;
-    text-align: center;
-    font-size: 1cm;
+    text-align:center;
+    font-size: 0.75cm;
     float: left;
-    margin:10px;
+    clip-path: circle(50% at 50% 50%);
+    shape-outside:circle(50%);
+    shape-margin: 5px;
 
-}
-
-.haker {
-    width: 100%;
-    max-width: 10px;
-    height: 20px;
-    display: block;
-    float: left;
 }
 
 .footer {
-    color=white
+    background-color: blue;
+    clip-path: polygon(100% 38%, 100% 100%, 0 100%, 0 24%);
+    color:rgb(8, 7, 7);
+    padding: 50px;
+    
+}
+
+.hobby {
+    color:beige;0
+}
+.plan {
+    color:beige
+
+}
+.navigation {
+
+}
+.navigation__list {
+    list-style: none;
+    padding: 0;
+   
+
+}
+.navigation__link {
+    color: rgb(238, 9, 9);
+    font-size: 0.75cm;
+
+}
+.navigation__item {
+     display: inline;
+}
+.glossary {
+    color:beige;
+}
+.table {
+    color:beige;
+    width: 100%;
 }

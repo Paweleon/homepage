@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link href="style2.css" rel="stylesheet" type="text/css">
+	<link href="normalize.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="body">
@@ -15,23 +16,84 @@
 		<h1 class="mainheader">
 			TWORZENIE STRON WWW
 		</h1>
-		<a class="firstlink" href="1.index2.html">HTML</a> <a class="firstlink" href="2.css.html">CSS</a> <a
-			class="firstlink" href="3.JS">JAVASCRIPT</a> <a class="firstlink" href="4.inne.html">INNE</a>
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li class="navigation__item"> <a class="navigation__link" href="1.index2.html">HTML</a> </li>
+				<li class="navigation__item"> <a class="navigation__link" href="2.css.html">CSS</a></li>
+				<li class="navigation__item"> <a class="navigation__link" href="3.JS">JAVASCRIPT</a></li>
+				<li class="navigation__item"> <a class="navigation__link" href="4.inne.html">INNE</a></li>
+			</ul>
+		</nav>
+		 
 	</header>
 
 	<main class="main">
-		<section class="abaut">
-			<a href="#down" class="down">w dół! </a>
-			
-			<h2 class="sectionheader">HTML</h2>
-			<div class="box"><b> Pieseł dobra rada</b></div>
-			<p class="paragraph">
+		<section class="hobby">
+			<ul>
+				<li>programowanie</li>
+				<li>trening</li>
+				<li>inne</li>
+			</ul>
+
+        </section>
+        <section class="plan">	
+			<ol>
+				<li>programowanie</li>
+				<li>trening</li>
+				<li>inne</li>
+			</ol>
+		</section>
+		<section class="glossary">
+			<dl>
+				<dt>CSS</dt>
+				<dd>o stylach</dd>
+				<dt>Html</dt>
+				<dd>szkilet strony</dd>
+				<dt>Javascript</dt>
+				<dd>jeszcze nie wiem</dd>
+				<dt>Inne</dt>
+				<dd>inne takie</dd>
 				
-				<b>!-</b>  od tego znaku rozpoczynamu pisanie w HTMLu, zmianiamy lang na PL, <b>head-</b> tutaj bawimy
+			</dl>
+
+		</section>
+		<section>
+			<table class="table">
+				<caption>Oceny całokształtu</caption>
+				<thead>
+				  <tr>
+			         <th>imię nazwisko</th>
+				     <th>ocena</th>
+				     <th>data</th>
+			       </tr>
+			   </thead>  
+			   <tbody>
+				   <tr >
+					<td>Paweł</td>
+					<td>4</td>
+					<td>17/03.2022</td>
+				   </tr>
+                   <tr>
+					<td>Kasia</td>
+					<td>1</td>
+					<td>17/03.2022</td>
+                   </tr>
+			   </tbody>
+			</table>
+		</section>
+		<section class="section">
+			<a href="#down" class="down">w dół! </a>
+
+			<h2 class="sectionheader">HTML</h2>
+			<div class="box"></div>
+			<p class="paragraph">
+
+				<b>!-</b> od tego znaku rozpoczynamu pisanie w HTMLu, zmianiamy lang na PL, <br> <b>head-</b> tutaj bawimy
 				się ze stylami <br /> <b>body-</b>
-				tutaj piszemy treść,<b>main-</b>  od tego zaczynamy pisać treść, <b>header- </b>nagłówek <br /> h1-tekst
+				tutaj piszemy treść,<b>main-</b> od tego zaczynamy pisać treść, <b>header- </b>nagłówek <br /> h1-tekst
 				nagłówka, tytuł główny strony, <b>h2...</b>- każdy kolejny podtytuł
-				<br /> <b>section- </b>pozwala podzielić tekst na sekcje, <b>p-</b> tworzy miejsce na treść, <b>br/-</b> pozwala
+				<br /> <b>section- </b>pozwala podzielić tekst na sekcje, <b>p-</b> tworzy miejsce na treść, <b>br/-</b>
+				pozwala
 				nam robić odstępy, ile "br/" tyle linijek odstępu w tekście, footer- stópka na końcu strony.
 				<br /> ctrl+P, wpisujemy >formatuj
 				dokument-poprawia wygląd HTML, wyświetl->word wrap- poprawia wygląd treści, b,
@@ -44,9 +106,10 @@
 			<a class="link" href="2.css.html">przejdź do kolejnej strony</a>
 
 		</section>
-		<footer  id="down">
+		<footer class="footer" id="down">
 			<a href="#top" class="top">w górę! </a>
-			<p clas="footer">Autorem owego tekstu jestem ja</p> <img src=haker.jpg alt=zdjęcie hakera width="100" height="100">
+			<p > Autorem owego tekstu jestem ja</p> <img src=haker.jpg alt=zdjęcie hakera width="100"
+				height="100">
 		</footer>
 
 	</main>
